@@ -29,4 +29,12 @@ answer: 'yes'}, {
   console.log('your score is '+ score);
   console.log('Highest Score --> Himanshu shukla - 5')
   console.log('Second Highest Score - to be announced soon')
+  var scores = [{ name: "Himanshu Shukla",
+  scoreIs: 5,},{ name: "Aakash",
+  scoreIs: 4,}]
+  for(var i=0;i<scores.length;i++){
+    if(score > scores[i].scoreIs){
+     console.log(chalk.red("Hey it Looks like you have done very well and your score can be in the list of High Scores. Send me a SS. I will update it."))
+    }
+  }
   
