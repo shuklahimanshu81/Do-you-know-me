@@ -12,12 +12,12 @@ function play(question,answer){
     console.log('yes! you are right. ')
     score = score+1;
   }
-    else{-+-
+    else{
       console.log('oops! you are wrong. ')
       score = score-1;
     }
     console.log('And, your score is ', score);
-    console.log('_____________')
+    console.log('____________________________')
 }
 var questions = [{question: 'Is Himanshu older than 21?(only yes/no) ',
 answer: 'yes'}, {
